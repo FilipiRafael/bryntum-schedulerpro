@@ -154,7 +154,13 @@ new SchedulerPro({
             field : 'name', 
             text : 'Jobs', 
             showEventCount : false, 
-            width : 250 
+            width : 220 
         }
     ],
 });
+
+// const categories = document.querySelectorAll(".b-tree-cell-value");
+
+// categories.forEach((category, index) => {
+//     category.style.cssText += "border: 2px solid #01AEEF;border-radius: 8px;padding: 8px;text-align: center;color: #01AEEF;";
+// });
