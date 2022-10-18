@@ -106,6 +106,8 @@ project_planner.cateogories.forEach((category, index) => {
         durationUnit : 'd',
         resizable: false,
         preamble : `${betweenDays} day`,
+        eventColor : '#004600',
+        eventStyle: 'border'
     });
 
     if (index !== project_planner.cateogories.length - 1) {
@@ -127,7 +129,8 @@ new SchedulerPro({
         timeRanges : {
             showCurrentTimeLine : true,
             showHeaderElements  : true,
-        }
+        },
+        columnLines: false,
     },
 
     project : {
@@ -138,7 +141,6 @@ new SchedulerPro({
 
     appendTo : 'container',
     autoHeight : true,
-    eventStyle        : 'rounded',
     // startDate  : project_planner.project_start_date,
     // endDate    : project_planner.project_end_date,
     startDate: "2022-10-01",
