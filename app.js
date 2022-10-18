@@ -141,6 +141,7 @@ new SchedulerPro({
 
     appendTo : 'container',
     autoHeight : true,
+    rowHeight: 60,
     // startDate  : project_planner.project_start_date,
     // endDate    : project_planner.project_end_date,
     startDate: "2022-10-01",
